@@ -14,7 +14,7 @@ define('APP_VERSION', '1.0.0');
 define('APP_ENV', 'development'); // 'development' or 'production'
 
 // Base URL - adjust if your project is in a subdirectory
-define('BASE_URL', '/php/ipp/public');
+define('BASE_URL', '/php/library_managment_system/public');
 
 // Paths
 define('ROOT_PATH', dirname(__DIR__));

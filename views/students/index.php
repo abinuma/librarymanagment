@@ -95,7 +95,7 @@ require VIEW_PATH . '/layouts/header.php';
                             <td>
                                 <div class="d-flex gap-1">
                                     <a href="<?= BASE_URL ?>/members/edit/<?= $member['id'] ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" title="Edit">
-                                        <i class="bi bi-pencil"></i>
+                                        Edit
                                     </a>
                                     <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal"
                                             data-name="<?= e($member['full_name']) ?>"

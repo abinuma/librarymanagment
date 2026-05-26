@@ -1,9 +1,7 @@
 <?php
-/**
- * Authentication Middleware
- * 
- * Protects routes that require authentication and role-based access.
- */
+
+//Protects routes that require authentication and role-based access.
+ 
 
 class AuthMiddleware
 {
@@ -46,10 +44,8 @@ class AuthMiddleware
         $_SESSION['last_activity'] = time();
     }
 
-    /**
-     * Require user to be an admin
-     */
-    public static function requireAdmin(): void
+     //   Require user to be an admin
+     public static function requireAdmin(): void
     {
         self::requireAuth();
         if (!isAdmin()) {

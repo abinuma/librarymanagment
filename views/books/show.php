@@ -1,7 +1,5 @@
 <?php
-/**
  * Book Detail View
- */
 $pageTitle = 'Book Details';
 require VIEW_PATH . '/layouts/header.php';
 ?>
@@ -10,7 +8,7 @@ require VIEW_PATH . '/layouts/header.php';
     <h4><i class="bi bi-journal-text text-info"></i> Book Details</h4>
     <div class="d-flex gap-2">
         <a href="<?= BASE_URL ?>/books/edit/<?= $book['id'] ?>" class="btn btn-warning btn-sm">
-            <i class="bi bi-pencil"></i> Edit
+            Edit
         </a>
         <a href="<?= BASE_URL ?>/books" class="btn btn-outline-light btn-sm">
             <i class="bi bi-arrow-left"></i> Back

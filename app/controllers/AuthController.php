@@ -1,10 +1,6 @@
 <?php
-// ==========================================
-// AuthController.php
-// ==========================================
-/**
- * AuthController - Handles login/logout
- */
+
+//  AuthController - Handles login/logout
 
 class AuthController
 {
@@ -37,7 +33,7 @@ class AuthController
             $user = $this->userModel->findByUsername($username);
 
             if (!$user || !password_verify($password, $user['password'])) {
-                errorResponse('Invalid username or password.', '/login');
+                errorResponse('Invalid credentials.', '/login');
                 return;
             }
 

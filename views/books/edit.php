@@ -7,7 +7,7 @@ require VIEW_PATH . '/layouts/header.php';
 ?>
 
 <div class="page-header">
-    <h4><i class="bi bi-pencil text-warning"></i> Edit Book</h4>
+    <h4>Edit Book</h4>
     <a href="<?= BASE_URL ?>/books" class="btn btn-outline-light">
         <i class="bi bi-arrow-left"></i> Back to Books
     </a>
@@ -66,7 +66,7 @@ require VIEW_PATH . '/layouts/header.php';
         </div>
 
         <div class="mt-4 d-flex gap-2">
-            <button type="submit" class="btn btn-warning"><i class="bi bi-pencil-square"></i> Update Book</button>
+            <button type="submit" class="btn btn-warning">Update Book</button>
             <a href="<?= BASE_URL ?>/books" class="btn btn-outline-light">Cancel</a>
         </div>
     </form>

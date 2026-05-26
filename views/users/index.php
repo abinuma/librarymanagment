@@ -62,7 +62,7 @@ require VIEW_PATH . '/layouts/header.php';
                             <td>
                                 <div class="d-flex gap-1">
                                     <a href="<?= BASE_URL ?>/users/edit/<?= $u['id'] ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" title="Edit">
-                                        <i class="bi bi-pencil"></i> Edit
+                                        Edit
                                     </a>
                                     <?php if ($u['id'] !== authUser()['id']): ?>
                                         <form action="<?= BASE_URL ?>/users/delete" method="POST" class="d-inline" <?= $u['is_active'] ? 'onsubmit="return confirm(\'Are you sure you want to disable this user?\');"' : '' ?>>

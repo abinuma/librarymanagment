@@ -1,7 +1,5 @@
 <?php
 /**
- * Web Routes
- * 
  * Defines all application routes mapping URLs to controller actions.
  */
 

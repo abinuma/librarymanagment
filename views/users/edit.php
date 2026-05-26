@@ -64,7 +64,7 @@ require VIEW_PATH . '/layouts/header.php';
         </div>
 
         <div class="d-flex gap-2">
-            <button type="submit" class="btn btn-warning"><i class="bi bi-pencil-square"></i> Update User</button>
+            <button type="submit" class="btn btn-warning">Update User</button>
             <a href="<?= BASE_URL ?>/users" class="btn btn-outline-light">Cancel</a>
         </div>
     </form>

@@ -29,7 +29,7 @@ require VIEW_PATH . '/layouts/header.php';
         </div>
 
         <div class="mt-4 d-flex gap-2">
-            <button type="submit" class="btn btn-warning"><i class="bi bi-pencil-square"></i> Update Category</button>
+            <button type="submit" class="btn btn-warning">Update Category</button>
             <a href="<?= BASE_URL ?>/categories" class="btn btn-outline-light">Cancel</a>
         </div>
     </form>

@@ -87,7 +87,7 @@ require VIEW_PATH . '/layouts/header.php';
                             <td><?= $t['return_date'] ? formatDate($t['return_date']) : '<span class="text-muted">—</span>' ?></td>
                             <td><?= statusBadge($t['status']) ?></td>
                             <td>
-                                <a href="<?= BASE_URL ?>/transactions/show/<?= $t['member_id'] ?>" class="btn btn-sm btn-info"><i class="bi bi-eye"></i> Details</a>
+                                <a href="<?= BASE_URL ?>/transactions/show/<?= $t['member_id'] ?>" class="btn btn-sm btn-info">Details</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

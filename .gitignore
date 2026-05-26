@@ -1,0 +1,23 @@
+# Windows metadata files
+*:Zone.Identifier
+*:*Zone.Identifier
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Cache
+cache/
+tmp/
+
+# Composer (if you use it)
+vendor/
+
+# VS Code settings (optional)
+.vscode/

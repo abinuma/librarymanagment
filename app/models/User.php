@@ -1,9 +1,6 @@
 <?php
-/**
- * User Model
- * 
- * Handles all database operations related to users (admin, librarian).
- */
+//  Handles all database operations related to users (admin, librarian).
+ 
 
 class User
 {

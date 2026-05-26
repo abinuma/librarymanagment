@@ -1,10 +1,7 @@
 <?php
-// ==========================================
-// BookController.php
-// ==========================================
-/**
- * BookController - CRUD operations for books
- */
+
+//BookController - CRUD operations for books
+ 
 
 class BookController
 {

@@ -49,7 +49,7 @@ require VIEW_PATH . '/layouts/header.php';
                             <td>
                                 <div class="d-flex gap-1">
                                     <a href="<?= BASE_URL ?>/categories/edit/<?= $c['id'] ?>" class="btn btn-warning btn-sm" data-bs-toggle="tooltip" title="Edit">
-                                        <i class="bi bi-pencil"></i> Edit
+                                        Edit
                                     </a>
                                     <form action="<?= BASE_URL ?>/categories/delete" method="POST" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this category? It will fail if it contains books.');">
                                         <?= csrfField() ?>

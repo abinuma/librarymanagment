@@ -61,9 +61,6 @@ $pageTitle = 'Login';
             </button>
         </form>
 
-        <div class="text-center mt-3">
-            <small class="text-muted">Default: admin / password</small>
-        </div>
     </div>
 </div>
 

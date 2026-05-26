@@ -51,11 +51,11 @@ $overallStatus = $memberData['status'];
             
             <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
                 <table class="table table-dark-custom mb-0">
-                    <thead style="position: sticky; top: 0; background: var(--glass-bg); z-index: 1;">
+                    <thead style="position: sticky; top: 0; background: var(--bg-sidebar); border-bottom: 1px solid var(--border); z-index: 1;">
                         <tr>
-                            <th>Book Title</th>
-                            <th>ISBN</th>
-                            <th>Status</th>
+                            <th style="background: var(--bg-sidebar); color: var(--text-primary); border-bottom: 1px solid var(--border);">Book Title</th>
+                            <th style="background: var(--bg-sidebar); color: var(--text-primary); border-bottom: 1px solid var(--border);">ISBN</th>
+                            <th style="background: var(--bg-sidebar); color: var(--text-primary); border-bottom: 1px solid var(--border);">Status</th>
                         </tr>
                     </thead>
                     <tbody>
